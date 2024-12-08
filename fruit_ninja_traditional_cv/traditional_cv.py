@@ -7,11 +7,9 @@ import numpy as np
 # test_images_dir: contains test images (e.g., .jpg, .png)
 # test_labels_dir: contains YOLOv8 label files with the same base name as the images but .txt extension
 # train_images_dir, train_labels_dir: similarly for training (to learn color ranges)
-# We'll assume 'fruit' is one or more classes in the YOLO labels, and all fruit classes should be segmented.
-# For simplicity, we treat all annotated objects as "fruit".
 
 train_images_dir = "../fruit_ninja_yolov8/FruitSalad-1/train/images"
-train_labels_dir = "../fruit_ninja_yolov8/FruitSalad-1/train/labels"  # YOLOv8 txt label files
+train_labels_dir = "../fruit_ninja_yolov8/FruitSalad-1/train/labels" 
 test_images_dir = "../fruit_ninja_yolov8/FruitSalad-1/test/images"
 test_labels_dir = "../fruit_ninja_yolov8/FruitSalad-1/test/labels"
 
