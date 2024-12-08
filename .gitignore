@@ -1,0 +1,19 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+
+# Ignore logs
+*.log
+
+# ignore dataset
+/fruit_ninja_detr/FruitSalad-1
+/fruit_ninja_yolov8/FruitSalad-1
+
+# ignore trained weights
+/fruit_ninja_detr/cool
+/fruit_ninja_yolov8/runs
+/fruit_ninja_yolov8/yolov8m.pt
+/fruit_ninja_yolov8/yolov8n.pt
